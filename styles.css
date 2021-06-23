@@ -1,0 +1,388 @@
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(230, 236, 242) 50%, rgb(202, 204, 204) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+body{
+  margin: 0;
+  text-align: center;
+
+
+}
+
+
+.navigationBar{
+  margin-top: 0;
+  background-color:#e6e6e6;
+  opacity:0.9;
+  position: static;
+}
+.navbar-brand{
+
+}
+.nav-item{
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin:0 10px;
+}
+h2{
+  font-family:  'Montserrat', sans-serif;
+    font-size: 3rem; /*Optional*/
+    line-height: 1.5; /*Optional*/
+    font-weight: 900;
+}
+h3{
+  margin: 5% 0;
+}
+a{
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid{
+  padding: 0 15%;
+}
+.rower{
+  padding-top: 15%;
+}
+.infoText{
+  text-align: left;
+  font-family: 'Montserrat';
+    line-height: 1.5;
+}
+button{
+
+  margin: 5px 7px;
+
+}
+.exploreIcons{
+  text-align: center;
+  height: 35px;
+  width: auto;
+}
+.skillicons{
+  text-align: left;
+  height: 55px;
+  width: auto;
+}
+.skillicons:hover{
+  opacity: 0.8;
+}
+.infoText2{
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 15px;
+  padding: 5% 5%;
+
+}
+.infoText2:hover{
+  font-weight: bold;
+}
+
+.platform-icons{
+  height: 2rem;
+  width: auto;
+
+}
+.platform-icons-codechef{
+  height: 3rem;
+  width: auto;
+
+  position: relative;
+  bottom: 15px;
+}
+.platformMargin{
+
+padding: 5% 0;
+}
+
+.card-title,.card-text{
+  text-align: left;
+  padding: 0 5%;
+}
+.card-title{
+  font-weight: 700;
+
+}
+.card{
+  width: 70%;
+  margin:auto;
+
+}
+.intern{
+  font-family:  'Montserrat', sans-serif;
+    font-size: 2rem; /*Optional*/
+
+    font-weight: 700;
+    padding-top: 5%;
+}
+.softskills1{
+padding-top: 4%;
+}
+
+.soft-skills{
+  color:#29BB89;
+  padding: 2% 5%;
+  text-align: left;
+  font-weight: 600;
+}
+
+
+.achievements{
+  color:black;
+  padding: 0 5%;
+  margin: 0;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+.footer{
+  font-family: 'Montserrat';
+  background-color: #40394a;
+  height: 180px;
+  margin: 0;
+  margin-top: 10%;
+color: #e6e6e6;
+text-align: center;
+
+
+}
+
+
+.skillicons1{
+  height: 25px;
+  width: auto;
+  display: inline-flex;
+  margin:20px 2%;
+opacity: 0.7;
+}
+.skillicons1:hover{
+  opacity :1;
+}
+
+
+/* ------------------------- contact me--------------------------- */
+
+
+/*-------------------------------- graphic designs----------------------------- */
+#carouselExampleDark{
+  padding: 0 5%;
+}
+#carouselExampleDark2{
+  padding: 5% 5%;
+}
+.illustrationS{
+  margin: 2% 2%;
+  background-color: #e93b81;
+  color: white;
+}
+
+/*------------------------------ stats --------------------------------------------*/
+
+.h2{
+  padding: 3% 0;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+h5{
+  padding: 1% 0;
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.bar{
+  text-align: left;
+  height: 20px;
+  max-width: 1080px;
+  margin: 0 auto 10px auto;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.bar::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 20px;
+  top: 0;
+
+  background: white;
+}
+.bar::after{
+  content: '';
+  background: #2ecc71;
+  height: 20px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: bar-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+@-webkit-keyframes bar-before{
+0%{
+  width: 0px;
+}
+100%{
+  width: 100%;
+}
+}
+.bar1::after{
+  max-width: 85%;
+}
+.bar2::after{
+  max-width: 70%;
+}
+.bar3::after{
+  max-width: 60%;
+}
+.bar4::after{
+  max-width: 95%;
+}
+.bar5::after{
+  max-width: 70%;
+}
+.bar6::after{
+  max-width: 70%;
+}
+/* new bars */
+
+.baro{
+  text-align: left;
+  height: 20px;
+  max-width: 1080px;
+  margin: 0 auto 10px auto;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+
+.baro::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 20px;
+  top: 0;
+
+  background: white;
+}
+.baro::after{
+  content: '';
+  background: #01937C;
+  height: 20px;
+  transition: 0.7s;
+  display: block;
+  width: 100%;
+  -webkit-animation: baro-before 1 1.8s;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+
+@-webkit-keyframes baro-before{
+0%{
+  width: 0px;
+}
+100%{
+  width: 100%;
+}
+}
+.baro1::after{
+  max-width: 95%;
+}
+.baro2::after{
+  max-width: 70%;
+}
+.baro3::after{
+  max-width: 40%;
+}
+.baro4::after{
+  max-width: 75%;
+}
+.baro5::after{
+  max-width: 70%;
+}
+
+
+@media (max-width: 370px) {
+    .container-fluid {
+        padding-left: 8px;
+        padding-right: 5px;
+    }
+
+    .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .row.no-gutters {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    h2{
+      font-size: 2rem;font-weight: 600;
+    }
+    p{
+      font-size: 14px;
+    }
+    h5{
+      font-size: 16px;
+      font-weight: 500;
+    }
+    .intern{
+      font-size: 22px;
+    }
+    .btn{
+      
+    }
+}
