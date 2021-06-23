@@ -11,8 +11,6 @@ This project is fully responsive and media breakoints make it a bit more fascina
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
-## Screenshots
 
-![App Screenshot](https://drive.google.com/file/d/1FFBKXMYj-EwQ40XZb410eOtUngJU7iQi/view?usp=sharing)
 
   
